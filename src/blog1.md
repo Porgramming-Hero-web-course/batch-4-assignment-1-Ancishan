@@ -1,3 +1,6 @@
+
+The significance of union and intersection types in Typescript:
+
 In TypeScript, union and intersection types play a crucial role in creating flexible, powerful types that allow you to represent a wider variety of data structures and enforce more specific constraints. Let’s explore the significance of each:
 
 Union Types (|):
