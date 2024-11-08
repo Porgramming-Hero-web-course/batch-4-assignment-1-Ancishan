@@ -1,17 +1,15 @@
 "use strict";
 {
-    // countWord Occurrences
+    //  Counts the occurrences of a specific word in a sentence, ignoring case.
     function countWordOccurrences(sentence, word) {
-        // convert sentence and word to lowercase
-        const lowerSentence = sentence.toLowerCase();
-        const lowerWord = word.toLowerCase();
-        // split sentence into word
-        const words = lowerSentence.split(/\b/);
-        const wordCount = words.filter(w => w === lowerWord).length;
-        return wordCount;
+        const lowerCaseSentence = sentence.toLowerCase();
+        const lowerCaseWord = word.toLowerCase();
+        const words = lowerCaseSentence.split(" ");
+        return words.filter(w => w === lowerCaseWord).length;
     }
-    // call the function
-    const result = countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
+    // Input
+    const result = countWordOccurrences("I love typescript", "typescript");
+    //output 
     console.log(result);
     // 
 }

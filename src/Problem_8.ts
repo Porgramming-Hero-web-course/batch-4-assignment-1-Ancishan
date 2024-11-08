@@ -9,7 +9,7 @@
     const person = { name: "Alice", age: 25, email: "alice@example.com" };
     // Output
     console.log(validateKeys(person, ["name", "age"])); // true
-    console.log(validateKeys(person, ["name", "height"])); // false
-     
+    
+
     // 
 }
